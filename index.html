@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>InCleanHome | Servicios para el hogar</title>
+
+  <meta name="description" content="InCleanHome conecta clientes con prestadores independientes de servicios para el hogar.">
+  <meta name="keywords" content="InCleanHome, servicios para el hogar, limpieza, cocina, lavandería, jardinería, cuidados">
+  <meta name="author" content="InCleanHome">
+
+  <link rel="icon" type="image/png" href="logo-InCleanHome.png">
+  <link rel="stylesheet" href="Styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <img src="logo-InCleanHome.png" alt="Logo de InCleanHome" class="logo-img">
+        <span class="logo-text">InCleanHome</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#como-funciona">Cómo funciona</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://in-clean-home-frontend.vercel.app/" class="btn-link">Iniciar sesión</a>
+        <a href="https://in-clean-home-frontend.vercel.app/" class="btn btn-primary">Ofrecer mis servicios</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="https://in-clean-home-frontend.vercel.app/">Iniciar sesión</a>
+      <a href="https://in-clean-home-frontend.vercel.app/" class="btn btn-primary">Ofrecer mis servicios</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content" data-animate>
+
+        <div class="badge">
+          <span class="badge-dot"></span>
+          Plataforma en línea
+        </div>
+
+        <h1>
+        <span>SERVICIOS</span>
+        <span class="highlight">VARIADOS</span>
+        <span>PARA TU</span>
+        <span>HOGAR</span>
+      </h1>
+        <p>
+          Encuentra prestadores según el servicio que necesitas, su ubicación, experiencia, tarifa y calificación.
+          Reserva y coordina todo desde InCleanHome.
+        </p>
+
+        <div class="hero-btns">
+          <a href="https://in-clean-home-frontend.vercel.app/" class="btn btn-primary">
+            Buscar servicios <i class="fa fa-arrow-right"></i>
+          </a>
+          <a href="#como-funciona" class="btn btn-outline">Ver cómo funciona</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>+5,000</strong>
+            <span>Clientes satisfechos</span>
+          </div>
+
+          <div class="stat">
+            <strong>4.9 ★</strong>
+            <span>Calificación promedio</span>
+          </div>
+
+          <div class="stat">
+            <strong>+30,000</strong>
+            <span>Servicios realizados</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero-image" data-animate>
+        <div class="hero-img-wrap">
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=500&q=80" alt="Servicio para el hogar">
+
+          <div class="hero-badge-float">
+            <i class="fa fa-shield-halved"></i>
+            <span>Acceso protegido</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO FUNCIONA -->
+  <section class="features" id="como-funciona">
+    <div class="container features-grid">
+
+      <div class="feature-card" data-animate>
+        <div class="feat-icon green">
+          <i class="fa fa-magnifying-glass"></i>
+        </div>
+
+        <h3>Búsqueda personalizada</h3>
+        <p>Encuentra prestadores según el servicio, zona, experiencia, tarifa y calificación.</p>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="feat-link">
+          Saber más <i class="fa fa-arrow-right fa-xs"></i>
+        </a>
+      </div>
+
+      <div class="feature-card" data-animate>
+        <div class="feat-icon green">
+          <i class="fa fa-calendar-check"></i>
+        </div>
+
+        <h3>Reservas flexibles</h3>
+        <p>Consulta la disponibilidad de los prestadores y coordina tus solicitudes de servicio.</p>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="feat-link">
+          Saber más <i class="fa fa-arrow-right fa-xs"></i>
+        </a>
+      </div>
+
+      <div class="feature-card" data-animate>
+        <div class="feat-icon green">
+          <i class="fa fa-comments"></i>
+        </div>
+
+        <h3>Comunicación directa</h3>
+        <p>Comunícate con los prestadores y coordina los detalles de cada servicio desde la plataforma.</p>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="feat-link">
+          Saber más <i class="fa fa-arrow-right fa-xs"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="search-section" id="servicios">
+    <div class="container search-wrap">
+
+      <p class="section-label">Servicios para el hogar</p>
+      <h2>Encuentra el servicio que necesitas</h2>
+      <p class="section-sub">Explora los diferentes servicios disponibles en InCleanHome.</p>
+
+      <div class="services-grid">
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="service-card">
+          <div class="service-icon">
+            <i class="fa fa-broom"></i>
+          </div>
+          <h3>Limpieza general</h3>
+          <p>Encuentra prestadores disponibles para este servicio.</p>
+        </a>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="service-card">
+          <div class="service-icon">
+            <i class="fa fa-spray-can-sparkles"></i>
+          </div>
+          <h3>Limpieza profunda</h3>
+          <p>Encuentra prestadores disponibles para este servicio.</p>
+        </a>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="service-card">
+          <div class="service-icon">
+            <i class="fa fa-utensils"></i>
+          </div>
+          <h3>Cocina</h3>
+          <p>Encuentra prestadores disponibles para este servicio.</p>
+        </a>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="service-card">
+          <div class="service-icon">
+            <i class="fa fa-shirt"></i>
+          </div>
+          <h3>Lavandería</h3>
+          <p>Encuentra prestadores disponibles para este servicio.</p>
+        </a>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="service-card">
+          <div class="service-icon">
+            <i class="fa fa-shirt"></i>
+          </div>
+          <h3>Planchado</h3>
+          <p>Encuentra prestadores disponibles para este servicio.</p>
+        </a>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="service-card">
+          <div class="service-icon">
+            <i class="fa fa-child-reaching"></i>
+          </div>
+          <h3>Cuidado de niños</h3>
+          <p>Encuentra prestadores disponibles para este servicio.</p>
+        </a>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="service-card">
+          <div class="service-icon">
+            <i class="fa fa-person-cane"></i>
+          </div>
+          <h3>Cuidado de adultos mayores</h3>
+          <p>Encuentra prestadores disponibles para este servicio.</p>
+        </a>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="service-card">
+          <div class="service-icon">
+            <i class="fa fa-seedling"></i>
+          </div>
+          <h3>Jardinería</h3>
+          <p>Encuentra prestadores disponibles para este servicio.</p>
+        </a>
+
+      </div>
+
+      <div class="services-action">
+        <a href="https://in-clean-home-frontend.vercel.app/" class="btn btn-primary">
+          Buscar prestadores
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- RESEÑAS -->
+  <section class="testimonials">
+    <div class="container">
+
+      <p class="section-label">Testimonios</p>
+      <h2>Experiencias con InCleanHome</h2>
+      <p class="section-sub">Conoce la experiencia de usuarios que utilizan nuestra plataforma.</p>
+
+      <div class="reviews-grid">
+
+        <div class="review-card" data-animate>
+          <div class="stars">★★★★★</div>
+
+          <p>
+            "Encontrar un servicio fue rápido y pude revisar distintas opciones antes de elegir."
+          </p>
+
+          <div class="reviewer">
+            <div class="avatar green">SR</div>
+
+            <div>
+              <strong>Sofía Ramírez</strong>
+              <span>Cliente</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card" data-animate>
+          <div class="stars">★★★★★</div>
+
+          <p>
+            "La plataforma me permitió revisar prestadores y comparar la información disponible de forma sencilla."
+          </p>
+
+          <div class="reviewer">
+            <div class="avatar blue">AH</div>
+
+            <div>
+              <strong>Andrés Herrera</strong>
+              <span>Cliente</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card" data-animate>
+          <div class="stars">★★★★★</div>
+
+          <p>
+            "Pude encontrar diferentes servicios para el hogar desde un mismo lugar y coordinar mi solicitud."
+          </p>
+
+          <div class="reviewer">
+            <div class="avatar teal">VM</div>
+
+            <div>
+              <strong>Valentina Mora</strong>
+              <span>Cliente</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="reviews-more">
+        <a href="https://in-clean-home-frontend.vercel.app/" class="btn btn-outline">
+          Conocer la plataforma
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- VIDEOS -->
+  <section class="videos-section" id="nosotros">
+    <div class="container">
+
+      <p class="section-label">Conócenos mejor</p>
+      <h2>Conoce InCleanHome</h2>
+      <p class="section-sub">Descubre nuestra plataforma y conoce al equipo detrás del proyecto.</p>
+
+      <div class="videos-grid">
+
+        <div class="video-card" data-animate>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/865FvNv-kJo"
+              title="Sobre el Producto InCleanHome"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <div class="video-info">
+            <h3><i class="fa fa-cubes green-text"></i> Sobre el Producto</h3>
+            <p>Conoce las principales funcionalidades de InCleanHome y cómo clientes y prestadores utilizan la plataforma.</p>
+          </div>
+        </div>
+
+        <div class="video-card" data-animate>
+          <div class="video-wrapper">
+            <iframe
+              src="https://www.youtube.com/embed/yzROPWGOR7Y"
+              title="Sobre el Equipo InCleanHome"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <div class="video-info">
+            <h3><i class="fa fa-users green-text"></i> Sobre el Equipo</h3>
+            <p>Conoce al equipo detrás de InCleanHome y el proceso de trabajo realizado durante el desarrollo del proyecto.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+
+      <div class="cta-text">
+        <h2>Encuentra el servicio que necesitas</h2>
+        <p>Conecta con prestadores de servicios para el hogar desde InCleanHome.</p>
+      </div>
+
+      <div class="cta-btns">
+        <a href="https://in-clean-home-frontend.vercel.app/" class="btn btn-white">Buscar ahora</a>
+        <a href="https://in-clean-home-frontend.vercel.app/" class="btn btn-outline-white">Ofrecer mis servicios</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <div class="logo">
+          <img src="logo-InCleanHome.png" alt="Logo de InCleanHome" class="logo-img">
+          <span class="logo-text">InCleanHome</span>
+        </div>
+
+        <p>Plataforma para conectar clientes con prestadores independientes de servicios para el hogar.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Plataforma</h4>
+
+        <ul>
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="https://in-clean-home-frontend.vercel.app/">Para prestadores</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Información</h4>
+
+        <ul>
+          <li><a href="https://in-clean-home-frontend.vercel.app/">Libro de reclamaciones</a></li>
+          <li><a href="https://in-clean-home-frontend.vercel.app/">Política de privacidad</a></li>
+          <li><a href="https://in-clean-home-frontend.vercel.app/">Términos y condiciones</a></li>
+          <li><a href="https://in-clean-home-frontend.vercel.app/">Iniciar sesión</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-access">
+        <h4>InCleanHome</h4>
+        <p>Accede a la plataforma para buscar servicios y gestionar tus solicitudes.</p>
+
+        <a href="https://in-clean-home-frontend.vercel.app/" class="btn btn-primary">
+          Abrir plataforma
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>2026 InCleanHome. Todos los derechos reservados.</p>
+
+      <div class="footer-legal">
+        <a href="https://in-clean-home-frontend.vercel.app/">Política de privacidad</a>
+        <a href="https://in-clean-home-frontend.vercel.app/">Términos y condiciones</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="Script.js"></script>
+
+</body>
+</html>
