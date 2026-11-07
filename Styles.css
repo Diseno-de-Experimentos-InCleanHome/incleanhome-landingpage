@@ -7,10 +7,10 @@
   --text: #3A4A5C;
   --text-light: #7A8FA6;
   --bg: #f7fafc;
-  --white: #ffffff;
+  --white: #fff;
   --border: #e2edf5;
-  --shadow: 0 4px 24px rgba(26, 46, 74, 0.08);
-  --shadow-lg: 0 12px 40px rgba(26, 46, 74, 0.14);
+  --shadow: 0 4px 24px rgb(26 46 74 / 8%);
+  --shadow-lg: 0 12px 40px rgb(26 46 74 / 14%);
   --radius: 12px;
   --radius-lg: 20px;
   --font-head: 'Nunito', sans-serif;
@@ -84,7 +84,7 @@ ul {
   background: var(--green-dark);
   border-color: var(--green-dark);
   transform: translateY(-1px);
-  box-shadow: 0 6px 20px rgba(0, 178, 114, 0.35);
+  box-shadow: 0 6px 20px rgb(0 178 114 / 35%);
 }
 
 .btn-outline {
@@ -111,11 +111,11 @@ ul {
 .btn-outline-white {
   background: transparent;
   color: var(--white);
-  border-color: rgba(255, 255, 255, 0.6);
+  border-color: rgb(255 255 255 / 60%);
 }
 
 .btn-outline-white:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgb(255 255 255 / 12%);
 }
 
 .btn-link {
@@ -164,7 +164,7 @@ section h2 {
   z-index: 100;
   background: var(--white);
   border-bottom: 1px solid var(--border);
-  box-shadow: 0 2px 10px rgba(26, 46, 74, 0.05);
+  box-shadow: 0 2px 10px rgb(26 46 74 / 5%);
 }
 
 .nav-inner {
@@ -367,7 +367,7 @@ section h2 {
   font-weight: 700;
   font-size: 14px;
   color: var(--navy);
-  animation: floatBadge 3s ease-in-out infinite;
+  animation: float-badge 3s ease-in-out infinite;
 }
 
 .hero-badge-float i {
@@ -375,7 +375,7 @@ section h2 {
   font-size: 20px;
 }
 
-@keyframes floatBadge {
+@keyframes float-badge {
   0%, 100% {
     transform: translateY(0);
   }
@@ -636,7 +636,7 @@ section h2 {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
-  background: #000000;
+  background: #000;
 }
 
 .video-wrapper iframe {
@@ -691,7 +691,7 @@ section h2 {
 }
 
 .cta-text p {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgb(255 255 255 / 75%);
   font-size: 15px;
   margin-top: 8px;
 }
@@ -705,7 +705,7 @@ section h2 {
 /* FOOTER */
 .footer {
   background: var(--navy);
-  color: rgba(255, 255, 255, 0.75);
+  color: rgb(255 255 255 / 75%);
   padding: 60px 0 0;
 }
 
@@ -714,7 +714,7 @@ section h2 {
   grid-template-columns: 2fr 1fr 1fr 2fr;
   gap: 40px;
   padding-bottom: 50px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgb(255 255 255 / 10%);
 }
 
 .footer-brand .logo-text {
@@ -743,7 +743,7 @@ section h2 {
 
 .footer-col a {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.65);
+  color: rgb(255 255 255 / 65%);
   transition: color var(--transition);
 }
 
@@ -776,7 +776,7 @@ section h2 {
 
 .footer-legal a {
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgb(255 255 255 / 55%);
   transition: color var(--transition);
 }
 
